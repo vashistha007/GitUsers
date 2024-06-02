@@ -19,7 +19,7 @@ async function myCustomFetcher<T>(url:string, options?: RequestInit):Promise<T>{
      }
 
      const data = await response.json();
-     console.log (data);
+
      return data;
 }
 
